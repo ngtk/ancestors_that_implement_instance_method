@@ -40,7 +40,7 @@ end
 Then:
 
 ```ruby
-Klass.new.ancestors_that_implement_instance_method(:target_method) #=> [Foo, Buz]
+Klass.ancestors_that_implement_instance_method(:target_method) #=> [Foo, Buz]
 ```
 
 ## Development
