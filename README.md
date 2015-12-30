@@ -1,6 +1,6 @@
 ## Module#ancestors_that_implement_instance_method [![Build Status](https://travis-ci.org/ngtk/ancestors_that_implement_instance_method.svg?branch=master)](https://travis-ci.org/ngtk/ancestors_that_implement_instance_method)
 
-you can get ancestors that implement instance method
+You can get ancestors that implement instance method.
 
 ### Installation
 
