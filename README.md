@@ -40,6 +40,7 @@ end
 Then:
 
 ```ruby
+require 'ancestors_that_implement_instance_method'
 Klass.ancestors_that_implement_instance_method(:target_method) #=> [Foo, Buz]
 ```
 
