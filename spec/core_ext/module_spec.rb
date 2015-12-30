@@ -21,6 +21,12 @@ describe Module do
       end
     end
 
+    after do
+      Object.send(:remove_const, :Foo)
+      Object.send(:remove_const, :Bar)
+      Object.send(:remove_const, :Buz)
+    end
+
     subject { Klass.ancestors_that_implement_instance_method(:target_method) }
 
     it 'returns ancestors that implement instance method' do
