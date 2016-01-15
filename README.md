@@ -21,7 +21,7 @@ module Foo
 end
 
 module Bar
-  # dose not implement #target_method
+  # does not implement #target_method
 end
 
 module Buz
